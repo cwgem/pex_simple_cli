@@ -1,0 +1,20 @@
+[project]
+name = "cli_pex"
+version = "0.0.1"
+authors = [
+  { name="Chris White", email="no-spam@devnull.com" },
+]
+description = "A simple CLI package to show off pex"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "dev.to"
+
+[project.scripts]
+adder = "cli_pex:run"
