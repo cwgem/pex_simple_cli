@@ -14,7 +14,7 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "dev.to"
+"Homepage" = "https://github.com/cwgem/pex_simple_cli"
 
 [project.scripts]
 adder = "cli_pex:run"
